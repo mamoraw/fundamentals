@@ -27,7 +27,7 @@ Sir David Attenborough, born 1926 */
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -43,8 +43,6 @@ public class main {
 
         System.out.println("Please enter the title: ");
         String title = scanner.nextLine();
-
-        System.out.println(firstName + lastName + yearOfBirth + title);
 
         printNamesAndTitlesInDifferentOrder(firstName, lastName, yearOfBirth, title);
     }
