@@ -52,30 +52,30 @@ public class WithFunctions {
         List<Integer> numbers = new ArrayList<>(List.of(3, 1, 2, 9, 5));
         List<Integer> newNumbers = removeOutliers(numbers);
         System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(4));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(3, 9));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(3, 9, 3));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(3, 9, 1, 1, 1, 9, 9, 8));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(0, 1, 2, 3));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
-//
-//        numbers = new ArrayList<>(List.of(0, 0, 0));
-//        newNumbers = removeOutliers(numbers);
-//        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(4));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(3, 9));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(3, 9, 3));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(3, 9, 1, 1, 1, 9, 9, 8));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(0, 1, 2, 3));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
+
+        numbers = new ArrayList<>(List.of(0, 0, 0));
+        newNumbers = removeOutliers(numbers);
+        System.out.println(numbers + " -> " +  newNumbers);
 
     }
 }

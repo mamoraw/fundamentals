@@ -39,11 +39,11 @@ import java.util.Optional;
 //Optional: Do this exercise again, but this time, use arrays everywhere instead of lists.
 public class Main {
     public static void main(String[] args) {
-//        System.out.println(removeOutliers(new ArrayList<>(List.of(2, 3, 4, 5))));
-//        System.out.println(removeOutliers(new ArrayList<>(List.of(1, 1, 1, 1, 1, 1))));
-//        System.out.println(removeOutliers(new ArrayList<>(List.of(3, 5, 1, 3, 9, 1, 9))));
-//        System.out.println(removeOutliers(new ArrayList<>(List.of(3, 5))));
-//        System.out.println(removeOutliers(new ArrayList<>(List.of(3))));
+        System.out.println(removeOutliers(new ArrayList<>(List.of(2, 3, 4, 5))));
+        System.out.println(removeOutliers(new ArrayList<>(List.of(1, 1, 1, 1, 1, 1))));
+        System.out.println(removeOutliers(new ArrayList<>(List.of(3, 5, 1, 3, 9, 1, 9))));
+        System.out.println(removeOutliers(new ArrayList<>(List.of(3, 5))));
+        System.out.println(removeOutliers(new ArrayList<>(List.of(3))));
         System.out.println(removeOutliers(new ArrayList<>(List.of(9, 5, 3))));
     }
 
