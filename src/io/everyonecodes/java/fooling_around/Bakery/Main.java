@@ -38,7 +38,6 @@ public class Main {
         List<Integer> unpaidDays = findUnpaidDays(transactions);
 
         unpaidDays.forEach(a -> System.out.print(a + " "));
-
     }
 }
 
