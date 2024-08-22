@@ -14,8 +14,8 @@ public class Round2 {
     public static void main(String[] args) throws IOException {
        List<String> honey = Files.readAllLines(Path.of("src/io/everyonecodes/java/fooling_around/Honey/level2_1"));
        List<String> result = indexOfLineW(honey).stream().map(Object::toString).toList();
+        System.out.println(honey);
 
-       result.forEach(System.out::println);
 
 
        Files.write(Path.of("src/io/everyonecodes/java/fooling_around/Honey/Level2_result"), result);
