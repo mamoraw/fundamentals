@@ -31,7 +31,7 @@ package io.everyonecodes.java.fooling_around.Mehmet_CodingChallenge;
 
 import java.util.*;
 
-public class Main {
+public class QuestionAnswerSystem {
 
     private static Map<String, List<String>> questionAnswerMap = new HashMap<>();
 
