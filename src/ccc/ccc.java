@@ -55,6 +55,81 @@ public class ccc {
 //        }
 //    }
 // Method to check for mistakes and fix the puzzle
+
+    // Lvl two:
+
+    // Method to normalize a piece by finding its lexicographically smallest rotation
+//    private static String normalizePiece(String[] piece) {
+//        // Generate all 4 rotations
+//        String[] rotations = new String[4];
+//        rotations[0] = String.join(",", piece); // Original
+//        rotations[1] = String.join(",", piece[3], piece[0], piece[1], piece[2]); // Rotated 90 degrees
+//        rotations[2] = String.join(",", piece[2], piece[3], piece[0], piece[1]); // Rotated 180 degrees
+//        rotations[3] = String.join(",", piece[1], piece[2], piece[3], piece[0]); // Rotated 270 degrees
+//
+//        // Find the lexicographically smallest rotation
+//        Arrays.sort(rotations);
+//        return rotations[0]; // Smallest (canonical form)
+//    }
+//
+//    // Method to analyze sequences and count based on the normalized (canonical) form of each piece
+//    public static Map<String, Integer> analyzeSequences(String[] lines) {
+//        Map<String, Integer> patternCountMap = new HashMap<>();
+//
+//        // Start from the second line (ignore the first line which is the number of pieces)
+//        for (int i = 1; i < lines.length; i++) {
+//            String line = lines[i].trim();
+//            String[] piece = line.split(",");  // Split the line by commas
+//
+//            // Ensure that we have exactly 4 parts (top, right, bottom, left)
+//            if (piece.length == 4) {
+//                String normalizedPiece = normalizePiece(piece); // Normalize the piece
+//
+//                // Count occurrences of the normalized piece
+//                patternCountMap.put(normalizedPiece, patternCountMap.getOrDefault(normalizedPiece, 0) + 1);
+//            }
+//        }
+//
+//        return patternCountMap;
+//    }
+//
+//    // Method to write the results to the output file
+//    public static void writePatternCountsToFile(Map<String, Integer> patternCounts, String outputFilePath) throws IOException {
+//        try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath))) {
+//            for (Map.Entry<String, Integer> entry : patternCounts.entrySet()) {
+//                writer.write(entry.getValue() + " " + entry.getKey() + "\n");
+//            }
+//        }
+//    }
+//
+//    // Method to read sequences from a file
+//    public static String[] readSequencesFromFile(String inputFilePath) throws IOException {
+//        BufferedReader reader = new BufferedReader(new FileReader(inputFilePath));
+//        return reader.lines().toArray(String[]::new);
+//    }
+//
+//    public static void main(String[] args) {
+//        String inputFilePath = "src/io/everyonecodes/java/catcoder/level2/level2_example.in"; // Input file with sequences
+//        String outputFilePath = "src/io/everyonecodes/java/catcoder/level2/level2.out"; // Output file for results
+//
+//        try {
+//            // Read the sequences from the input file
+//            String[] lines = readSequencesFromFile(inputFilePath);
+//
+//            // Analyze the sequences
+//            Map<String, Integer> patternCounts = analyzeSequences(lines);
+//
+//            // Write the results to the output file
+//            writePatternCountsToFile(patternCounts, outputFilePath);
+//
+//            System.out.println("Analysis complete. Results written to " + outputFilePath);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//    }
+//}
+
+    // Lvl three.
 public static String[][] fixPuzzle(String[][] puzzle, int size) {
     String[][] fixedPuzzle = new String[size][size];
 
